@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300;400;500;700&display=swap");
+
+html,
+body {
+  padding: 0 !important;
+  // overflow: auto !important; // scroll while modal open
+  :focus {
+    outline: none;
+  }
+  ::-moz-focus-inner {
+    border: 0;
+  }
+}
+
+.App {
+  font-family: "Roboto", sans-serif;
+}
